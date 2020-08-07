@@ -1,6 +1,6 @@
 cache:
   sheet:
-    spec: initialCapacity=10, maximumSize=10, expireAfterWrite=30s, recordStats1
+    spec: initialCapacity=10, maximumSize=10, expireAfterWrite=30s, recordStats
 
 # skynet config
 skynet:
@@ -15,7 +15,7 @@ skynet:
 #OS=data/config.xlsx
 excel:
   store:
-    path: src/main/resources/data/config.xlsx
+    path: src/main/resources/data/config.xlsx1
 
 #gshotscript config
 file:
