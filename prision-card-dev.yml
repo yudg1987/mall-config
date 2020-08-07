@@ -1,0 +1,3 @@
+excel:
+  store:
+    path: src/main/resources/data/config.xlsx
