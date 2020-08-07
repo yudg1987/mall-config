@@ -5,7 +5,7 @@ cache:
 # skynet config
 skynet:
     ocr:
-      server: http://172.31.47.131:8085/tuling/ocr/v2/file/{trackId}
+      server: http://172.31.47.13:8085/tuling/ocr/v2/file/{trackId}
     elle:
       server: http://172.31.46.73:8087/tuling/elle/v2/interpret
 
