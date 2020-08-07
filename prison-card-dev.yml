@@ -1,6 +1,6 @@
 cache:
   sheet:
-    spec: initialCapacity=10, maximumSize=10, expireAfterWrite=30s, recordStats
+    spec: initialCapacity=10, maximumSize=10, expireAfterWrite=30s, recordStats1
 
 # skynet config
 skynet:
