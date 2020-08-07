@@ -1,0 +1,26 @@
+cache:
+  sheet:
+    spec: initialCapacity=10, maximumSize=10, expireAfterWrite=30s, recordStats
+
+# skynet config
+skynet:
+    ocr:
+      server: http://172.31.47.13:8085/tuling/ocr/v2/file/{trackId}
+    elle:
+      server: http://172.31.46.73:8087/tuling/elle/v2/interpret
+
+  
+# 表单配置结果保存路径 # put the configuration file outside 
+#OS=WINDOWS USE src/main/resources/data/config.xlsx
+#OS=data/config.xlsx
+excel:
+  store:
+    path: src/main/resources/data/config.xlsx
+
+#gshotscript config
+file:
+  convert:
+    path: /tmp/image
+gs:
+  baseurl: C:/Program Files (x86)/gs/gs9.20/bin
+  #baseurl: /iflytek/server/ghostscript-9.25/bin/gs
